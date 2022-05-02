@@ -15,4 +15,4 @@ spec:
         - name: myonlineapp-container
           image: dockers87/myjenkinsimage:2
             ports:
-            - containerPort: 8080
+            - containerPort: 80
