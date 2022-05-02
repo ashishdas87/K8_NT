@@ -9,4 +9,4 @@ spec:
    - name: first-Container
      image: nginx
      ports: 
-     - containerport: 80
+     - containerPort: 80
