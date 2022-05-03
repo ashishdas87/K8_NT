@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: myonlineapp-container
-          image: dockers87/myjenkinsimage:2
+          image: dockers87/myjenkinsimage:1
           ports:
             - containerPort: 80
