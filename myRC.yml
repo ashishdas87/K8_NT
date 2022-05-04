@@ -5,14 +5,14 @@ metadata:
 spec:
   replicas: 4
   selector:
-      app: myonlineapp
+      app: mynginx
   template:
     metadata: 
       labels:
-          app: myonlineapp
+          app: mynginx
     spec:
       containers:
-        - name: myonlineapp-container
+        - name: mynginx-container
           image: nginx
           ports:
             - containerPort: 80
