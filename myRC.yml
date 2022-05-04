@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: myjenkins-container
-          image: dockers87/myjenkinsimage
+          image: dockers87/myjenkinsimage:1
           ports:
             - containerPort: 8080
