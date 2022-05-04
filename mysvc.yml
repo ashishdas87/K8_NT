@@ -11,4 +11,4 @@ spec:
     nodePort: 30002
     protocol: TCP
   selector:
-      app: myonlinestore
+      app: myonlineapp
