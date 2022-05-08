@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myjavaapplogin-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myjavaapplogin
+  template:
+    metadata: 
+      labels:
+          app: myjavaapplogin
+          versions: 2.6.2
+    spec:
+     containers:
+     - name: myjavaapplogin-container
+       image: dockers87/myjavaapplogin:1
+       ports:
+       - containerPort: 8080
