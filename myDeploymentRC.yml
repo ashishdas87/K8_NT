@@ -15,6 +15,6 @@ spec:
     spec:
      containers:
      - name: myjavaapplogin-container
-       image: dockers87/myjavaapplogin:1
+       image: dockers87/myjavaapplogin:2
        ports:
        - containerPort: 8080
